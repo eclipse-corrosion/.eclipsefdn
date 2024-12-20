@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-corrosion') {
+orgs.newOrg('tools.corrosion', 'eclipse-corrosion') {
   settings+: {
     description: "",
     name: "Eclipse Corrosion™",
