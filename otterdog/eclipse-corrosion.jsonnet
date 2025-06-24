@@ -29,6 +29,7 @@ orgs.newOrg('tools.corrosion', 'eclipse-corrosion') {
       gh_pages_build_type: "legacy",
       gh_pages_source_branch: "master",
       gh_pages_source_path: "/",
+      has_discussions: true,
       homepage: "",
       topics+: [
         "eclipse-ide",
